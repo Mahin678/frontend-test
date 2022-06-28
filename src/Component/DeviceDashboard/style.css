@@ -1,0 +1,57 @@
+.active-device {
+    height: 100vh;
+    background-color: #ff7043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.active-device__content {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 999;
+}
+.active-device__content h2 {
+    font-size: 82px;
+    margin: 0px;
+    line-height: normal;
+}
+.active-device__content p {
+    font-size: 16px;
+    margin: 0px;
+}
+.active-device__control {
+    position: absolute;
+    bottom: 0px;
+    background-color: #00000078;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+}
+.active-device__control button {
+    border: none;
+    padding: 7px 20px;
+    border-radius: 2px;
+    margin: 0px 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.active-device__notify {
+    background-color: #fff;
+}
+.active-device__logout {
+    background-color: #37474f;
+    color: #fff
+}
+
+.active-user-bubble {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: -0;
+}
